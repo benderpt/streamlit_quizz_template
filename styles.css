@@ -1,9 +1,15 @@
 /* Estilo para toda a sidebar */
-.stSidebar {
-    background-color: #b86363; /* Cinza claro */
+.custom-button {
+    display: inline-block;
+    background-color: #4CAF50;  /* Cor de fundo do botão */
+    color: white;  /* Cor do texto do botão */
+    padding: 8px 16px;  /* Top e Bottom, Right e Left padding */
+    margin: 4px 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;  /* Bordas arredondadas */
 }
 
-/* Estilo para o widget de sucesso na sidebar */
-div.st-emotion-cache-8atqhb ea3mdgi4 {
-    background-color: #b86363; /* Um cinza um pouco mais escuro */
+.custom-button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
 }

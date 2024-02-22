@@ -1,0 +1,24 @@
+[
+    {
+        "pergunta": "Qual é a entidade responsável pela administração fiscal em Portugal?", 
+        "informacao": "Esta entidade é responsável pela gestão dos tributos e supervisão aduaneira.", 
+        "opcoes": ["Autoridade Tributária e Aduaneira", "Banco de Portugal", "Instituto de Segurança Social", "Direção-Geral da Educação"], 
+        "resposta": "Autoridade Tributária e Aduaneira"},
+    {
+        "pergunta": "Qual é o sistema de saúde pública em Portugal?", 
+        "informacao": "Este sistema engloba uma rede de entidades que prestam cuidados de saúde aos cidadãos portugueses.", 
+        "opcoes": ["Serviço Nacional de Saúde", "Hospital das Forças Armadas", "Rede de Cuidados Continuados Integrados", "Centros de Saúde Privados"], 
+        "resposta": "Serviço Nacional de Saúde"},
+    {
+        "pergunta": "Qual é o órgão máximo do sistema judiciário em Portugal?",
+        "informacao": "Este órgão é a mais alta instância da hierarquia dos tribunais judiciais em Portugal.",
+        "opcoes": ["Tribunal Constitucional", "Supremo Tribunal de Justiça", "Tribunal de Contas", "Supremo Tribunal Administrativo"],
+        "resposta": "Supremo Tribunal de Justiça"
+    },
+    {
+        "pergunta": "Qual entidade é responsável pela supervisão da educação em Portugal?",
+        "informacao": "Esta entidade governamental é responsável por regular e supervisionar o sistema educativo português.",
+        "opcoes": ["Direção-Geral da Educação", "Fundação para a Ciência e a Tecnologia", "Instituto de Avaliação Educativa", "Agência para o Desenvolvimento e Coesão"],
+        "resposta": "Direção-Geral da Educação"
+    }
+]
