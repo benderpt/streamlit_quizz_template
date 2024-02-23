@@ -1,24 +1,62 @@
 [
     {
-        "pergunta": "Qual é a entidade responsável pela administração fiscal em Portugal?", 
-        "informacao": "Esta entidade é responsável pela gestão dos tributos e supervisão aduaneira.", 
-        "opcoes": ["Autoridade Tributária e Aduaneira", "Banco de Portugal", "Instituto de Segurança Social", "Direção-Geral da Educação"], 
-        "resposta": "Autoridade Tributária e Aduaneira"},
-    {
-        "pergunta": "Qual é o sistema de saúde pública em Portugal?", 
-        "informacao": "Este sistema engloba uma rede de entidades que prestam cuidados de saúde aos cidadãos portugueses.", 
-        "opcoes": ["Serviço Nacional de Saúde", "Hospital das Forças Armadas", "Rede de Cuidados Continuados Integrados", "Centros de Saúde Privados"], 
-        "resposta": "Serviço Nacional de Saúde"},
-    {
-        "pergunta": "Qual é o órgão máximo do sistema judiciário em Portugal?",
-        "informacao": "Este órgão é a mais alta instância da hierarquia dos tribunais judiciais em Portugal.",
-        "opcoes": ["Tribunal Constitucional", "Supremo Tribunal de Justiça", "Tribunal de Contas", "Supremo Tribunal Administrativo"],
-        "resposta": "Supremo Tribunal de Justiça"
+        "question": "What is the primary goal of artificial intelligence?",
+        "information": "This field of computer science aims to create systems capable of performing tasks that would typically require human intelligence.",
+        "options": ["To simulate human intelligence", "To enhance computer speed", "To replace human jobs", "To improve data storage"],
+        "answer": "To simulate human intelligence"
     },
     {
-        "pergunta": "Qual entidade é responsável pela supervisão da educação em Portugal?",
-        "informacao": "Esta entidade governamental é responsável por regular e supervisionar o sistema educativo português.",
-        "opcoes": ["Direção-Geral da Educação", "Fundação para a Ciência e a Tecnologia", "Instituto de Avaliação Educativa", "Agência para o Desenvolvimento e Coesão"],
-        "resposta": "Direção-Geral da Educação"
+        "question": "What is 'machine learning' in the context of artificial intelligence?",
+        "information": "This is a subset of artificial intelligence that involves the creation of systems that can learn from and make decisions based on data.",
+        "options": ["A new programming language", "A data processing method", "A subset of artificial intelligence", "A type of computer hardware"],
+        "answer": "A subset of artificial intelligence"
+    },
+    {
+        "question": "What is a 'neural network' in terms of artificial intelligence?",
+        "information": "This is a computational model inspired by the human brain's network of neurons, used in machine learning for pattern recognition.",
+        "options": ["A computer virus", "A data storage solution", "A machine learning model", "A network security protocol"],
+        "answer": "A machine learning model"
+    },
+    {
+        "question": "Who is considered the father of artificial intelligence?",
+        "information": "This individual is credited with laying the groundwork for the field of artificial intelligence through his seminal work and research.",
+        "options": ["Alan Turing", "John McCarthy", "Elon Musk", "Stephen Hawking"],
+        "answer": "John McCarthy"
+    },
+    {
+        "question": "What is the Turing Test used to evaluate?",
+        "information": "This test is used to assess a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.",
+        "options": ["Artificial intelligence", "Computer speed", "Data storage capacity", "Network security"],
+        "answer": "Artificial intelligence"
+    },
+    {
+        "question": "What is 'deep learning' in the context of artificial intelligence?",
+        "information": "This is a subset of machine learning involving neural networks with many layers, used for tasks like image recognition and natural language processing.",
+        "options": ["A type of artificial intelligence", "A programming methodology", "A computer network structure", "A database design"],
+        "answer": "A type of artificial intelligence"
+    },
+    {
+        "question": "Which of the following is an application of AI in daily life?",
+        "information": "Artificial intelligence can be used in many different fields and for various purposes.",
+        "options": ["Self-driving cars", "Manual data entry", "Traditional board games", "Mechanical switches"],
+        "answer": "Self-driving cars"
+    },
+    {
+        "question": "What does 'NLP' stand for in the context of artificial intelligence?",
+        "information": "This technology enables computers to understand, interpret, and produce human language and speech.",
+        "options": ["Natural Language Processing", "Numerical Logic Programming", "Nonlinear Performance Parameters", "Network Layer Protocols"],
+        "answer": "Natural Language Processing"
+    },
+    {
+        "question": "What is reinforcement learning?",
+        "information": "This type of machine learning is based on the idea of agents that learn to make decisions by taking actions in an environment to achieve some notion of cumulative reward.",
+        "options": ["A form of supervised learning", "A type of unsupervised learning", "A kind of semi-supervised learning", "A model of machine learning"],
+        "answer": "A model of machine learning"
+    },
+    {
+        "question": "Which of the following is a common use of AI in businesses?",
+        "information": "Artificial intelligence is being used to improve various aspects of businesses and customer experiences.",
+        "options": ["Customer service chatbots", "Paper file management", "Manual account calculations", "Traditional advertising methods"],
+        "answer": "Customer service chatbots"
     }
 ]
