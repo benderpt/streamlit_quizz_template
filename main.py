@@ -19,13 +19,8 @@ st.markdown("""
 div.stButton > button:first-child {
     display: block;
     margin: 0 auto;
-}
 </style>
 """, unsafe_allow_html=True)
-
-# Load quiz data
-with open('content/quiz_data.json', 'r', encoding='utf-8') as f:
-    quiz_data = json.load(f)
 
 # Initialize session variables if they do not exist
 if 'current_index' not in st.session_state:
@@ -39,6 +34,10 @@ if 'selected_option' not in st.session_state:
 if 'answer_submitted' not in st.session_state:
     st.session_state.answer_submitted = False
 
+# Load quiz data
+with open('content/quiz_data.json', 'r', encoding='utf-8') as f:
+    quiz_data = json.load(f)
+
 def restart_quiz():
     st.session_state.current_index = 0
     st.session_state.score = 0
@@ -46,6 +45,7 @@ def restart_quiz():
     st.session_state.answer_submitted = False
 
 def submit_answer():
+
     # Check if an option has been selected
     if st.session_state.selected_option is not None:
         # Mark the answer as submitted
@@ -109,5 +109,3 @@ if st.session_state.answer_submitted:
 else:
     if st.session_state.current_index < len(quiz_data):
         st.button('Submit', on_click=submit_answer)
-
-
