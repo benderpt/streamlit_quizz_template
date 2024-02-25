@@ -1,9 +1,6 @@
 import streamlit as st
-from streamlit.logger import get_logger
 import json
 
-# Set page configuration
-LOGGER = get_logger(__name__)
 def run():
     st.set_page_config(
         page_title="Streamlit quizz app",
@@ -23,16 +20,9 @@ div.stButton > button:first-child {
 """, unsafe_allow_html=True)
 
 # Initialize session variables if they do not exist
-if 'current_index' not in st.session_state:
-    st.session_state['current_index'] = 0
-if 'current_question' not in st.session_state:
-    st.session_state['current_question'] = 0
-if 'score' not in st.session_state:
-    st.session_state.score = 0
-if 'selected_option' not in st.session_state:
-    st.session_state.selected_option = None
-if 'answer_submitted' not in st.session_state:
-    st.session_state.answer_submitted = False
+default_values = {'current_index': 0, 'current_question': 0, 'score': 0, 'selected_option': None, 'answer_submitted': False}
+for key, value in default_values.items():
+    st.session_state.setdefault(key, value)
 
 # Load quiz data
 with open('content/quiz_data.json', 'r', encoding='utf-8') as f:
