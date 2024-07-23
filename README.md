@@ -50,5 +50,5 @@ Contributions are welcome and greatly appreciated. Here's how you can contribute
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
-- Your Name – [@your_twitter](https://twitter.com/your_twitter) – hugoalmeidamoreira@gmail.com
-- Project Link: [https://github.com/ybenderpt/streamlit_quiz_template](https://github.com/benderpt/streamlit_quiz_template)
+[linkedin](https://www.linkedin.com/in/hugoalmeidamoreira/) – hugoalmeidamoreira@gmail.com
+
